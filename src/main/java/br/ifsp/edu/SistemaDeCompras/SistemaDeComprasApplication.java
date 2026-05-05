@@ -1,0 +1,13 @@
+package br.ifsp.edu.SistemaDeCompras;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SistemaDeComprasApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SistemaDeComprasApplication.class, args);
+	}
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Venda</title>
+</head>
+<body>
+	<h1>Venda</h1>
+	<form action="venda" method="POST">
+	        <label for="">Nome do Cliente: </label>
+	        <input type="text" id="nomeCliente" name="nomeCliente">
+
+	         <label for="">Nome do Produto: </label>
+	        <input type="text" id="nomeProduto" name="nomeProduto">
+
+	        <label for="">Quantidade: </label>
+	        <input type="text" id="quantidade" name="quantidade">
+
+	         <label for="">Valor Unitario: </label>
+	        <input type="text" id="valor" name="valor">
+	        <button>enviar</button>
+	    </form>
+	    <h2>Resultado: </h2>
+	    <h3>Nome do Cliente: <span th:text="${cliente}"></h3>
+	    <h3>Nome do Produto: <span th:text="${produto}"></h3>
+	    <h3>Valor Bruto: <span th:text="${valorBruto}"></h3>
+	    <h3>Desconto de: <span th:text="${desconto}"></h3>
+	    <h3>Valor Final: <span th:text="${valorFinal}"></h3>
+	    <h3>Classificação: <span th:text="${classificacao}"></h3>
+</body>
+</html>
