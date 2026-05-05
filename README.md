@@ -24,8 +24,4 @@ O projeto segue o padrão MVC (Model-View-Controller) do Spring Boot:
 * `src/main/resources/templates/`: Ficheiros de visualização HTML usando Thymeleaf (ex: `index.html`).
 * `src/main/resources/static/`: Ficheiros estáticos, como folhas de estilo (`style.css`).
 
-## ⚙️ Como Executar o Projeto
 
-### Pré-requisitos
-* Ter o **Java Development Kit (JDK)** instalado.
-* Ter o **Maven** instalado (o projeto também inclui o `mvnw` - Maven Wrapper).
