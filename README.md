@@ -21,7 +21,7 @@ O **Sistema de Compras** é uma aplicação web desenvolvida em Java utilizando 
 O projeto segue o padrão MVC (Model-View-Controller) do Spring Boot:
 * `src/main/java/br/edu/ifsp/SistemaDeCompras/controller/`: Controladores da aplicação, responsáveis por receber as requisições e processar os dados.
 * `src/main/java/br/edu/ifsp/SistemaDeCompras/model/`: Classes de domínio/modelo, responsáveis pelas regras de negócio e estrutura de dados.
-* `src/main/resources/templates/`: Ficheiros de visualização HTML usando Thymeleaf (ex: `index.html`).
-* `src/main/resources/static/`: Ficheiros estáticos, como folhas de estilo (`style.css`).
+* `src/main/resources/templates/`: Ficheiros de visualização HTML usando Thymeleaf.
+* `src/main/resources/static/`: Ficheiros estáticos, como folhas de estilo.
 
 
